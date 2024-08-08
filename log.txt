@@ -1,0 +1,14 @@
+📝 Darkuz_69's Log
+
+📅 Date: 10:20 AM of 07/08/2024
+    This is my second attempt on creating a string implementation on C Language. My last attempt cannot be accessed because it was on
+    my old laptop, which was been damaged. So, I tried to do it again.
+    Currently, I have 4 functions in this library: createString(), getString(), getLength(), and freeStrings();
+    Also the strings or what I call here, a "custom_string", is just an alias for the type "char *".
+    I have also created a readme file for this...
+    📌 Planning to implement:
+        More functions essential for strings
+        Try to fix the "undefined reference" error
+    📬 Pesronal Message to self:
+        Maypag wa sa diay ta mi aris iskol. Pero okay ra atleast layo2x naning librariha. Yati, ayuha ning undefined reference, dugay rako galagot ana.
+        Pero badshit kaajo.. HAHAHAHHAHA😂....
