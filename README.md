@@ -7,7 +7,7 @@ In this library, strings are called "custom_string", which is an alias for the d
 typedef char* custom_string;
 ~~~
 Currently, this library has 4 Functions:
-- 🔨 createString(string) -> a variable declaration function forr custom_strings
+- 🔨 createString(string) -> a variable declaration function for custom_strings
 ~~~c
 custom_string myStr = createString("This is a sample string");
 ~~~
@@ -24,9 +24,12 @@ int len2 = getLength("Sample");
 ~~~c
 freeStrings();
 ~~~
-📌 Disclaimer: Please, always call this function when using this library for I have not yet achieved the skill to create some header magic to automatically call this function. In order to call this function, use the atexit function...
-~~~c
-atexit(freeStrings);
+📌 Disclaimer: This function is now a destructor, which means, it would be called at the end of a program.
+
+# 🤔 Compiling
+To compile with this library, use this...
+~~~bash
+gcc {filename}.c -L. -lcustomstring -o {filename}
 ~~~
 
 # 📜 Log.txt

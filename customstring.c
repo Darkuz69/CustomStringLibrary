@@ -7,6 +7,7 @@ size_t MAXIMUM_STRINGS = SIZE_MAX / sizeof(custom_string);
 size_t strings_count = 0;
 
 custom_string createString(const custom_string string) {
+
     if(strings_count > MAXIMUM_STRINGS) {
         fprintf(stderr, "CustomStringError: Maximum Limit of strings have reached!!");
         return NULL;
@@ -71,6 +72,7 @@ custom_string createString(const custom_string string) {
 }
 
 custom_string getString(const custom_string prompt) {
+
     if(strings_count > MAXIMUM_STRINGS) {
         fprintf(stderr, "CustomStringError: Maximum Limit of strings have reached!!");
         return NULL;
@@ -146,7 +148,7 @@ size_t getLength(const custom_string string) {
     return counter;
 }
 
-void freeStrings() {
+__attribute__((destructor)) void freeStrings() {
     for(size_t i = 0; i < strings_count; i++) {
         free(strings[i]);
         strings[i] = NULL;

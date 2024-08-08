@@ -10,7 +10,4 @@ custom_string createString(const custom_string string);
 size_t getLength(const custom_string string);
 void freeStrings();
 
-
-
-
 #endif //CUSTOMSTRING_H

@@ -12,3 +12,12 @@
     📬 Pesronal Message to self:
         Maypag wa sa diay ta mi aris iskol. Pero okay ra atleast layo2x naning librariha. Yati, ayuha ning undefined reference, dugay rako galagot ana.
         Pero badshit kaajo.. HAHAHAHHAHA😂....
+
+📅 Date: 11:26 PM of 08/08/2024
+    🔔 Updates:
+        I have made a linker file for this library, so when compiling, one must use the "-lcustomstring" to link the library to my file.
+        With the help of chatGPT, we were able to make the freeStrings() run automatically at the end of a program...
+    📌 Planning to implement:
+        More functions essential for strings
+    📬 Pesronal Message to self:
+        Tungang gabii na!!
